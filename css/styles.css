@@ -9,7 +9,6 @@
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
-  box-sizing: 1.5rem;
 }
 
 .card {
@@ -18,7 +17,6 @@ body {
   height: 600px;
   margin: 3rem auto;
   background-color: whitesmoke;
-  
   border-radius: 1rem;
   padding: 1rem;
 }
@@ -28,7 +26,7 @@ img {
   border-radius: 1rem;
 }
 
-.card__main {
+.main {
   text-align: center;
   padding: 2rem;
 }
@@ -38,21 +36,5 @@ img {
 }
 
 .card__text {
-   
-    color: hsl(222, 5%, 62%);
+  color: hsl(222, 5%, 62%);
 }
-
-.attribution {
-    font-size: .8rem;
-   text-align: center;
-    padding: 1rem;
-}  
-
-a {
-    margin-right: 1rem;
-    text-decoration: none;
-    color: rgb(38, 0, 255);
-}
-    
-    
-   
